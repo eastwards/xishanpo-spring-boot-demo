@@ -13,7 +13,7 @@ public class BoxFactory {
         }
 
         if ("BB".equals(box)) {
-            return new BoxBB();
+            return new BoxBB("BB");
         }
 
         return null;
